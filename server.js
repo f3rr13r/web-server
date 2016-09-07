@@ -29,7 +29,7 @@ app.use(middleWare.logger);
 
 app.get('/about/', function (request, response) {
 
-	response.send('My name is Harry Ferrier. I am 28 years old, and from Cardiff.');
+	response.send('My name is Harry Ferrier. I am 28 years old, and from Cardiff. I am currently learning Node.JS');
 
 
 });
